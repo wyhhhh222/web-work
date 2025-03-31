@@ -1,209 +1,131 @@
 <!DOCTYPE html>
-<html lang="zh">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>韩国男团SEVENTEEN</title>
-    <style>
-      body {
-        font-family: 'Arial', sans-serif;
-        max-width: 1000px;
-        margin: 0 auto;
-        padding: 20px;
-        background-color: #fff9f9;
-        background-image: url("微信图片_20250317181835.jpg");
-        background-attachment: fixed;
-        background-size: cover;
-        background-position: center;
-      }
-      
-      /* 导航栏样式 */
-      .navbar {
-        background-color: #f06292;
-        overflow: hidden;
-        border-radius: 8px;
-        margin-bottom: 20px;
-        position: sticky;
-        top: 0;
-        z-index: 100;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-      }
-      
-      .navbar a {
-        float: left;
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        transition: background-color 0.3s;
-      }
-      
-      .navbar a:hover {
-        background-color: #e91e63;
-      }
-      
-      /* Banner样式 */
-      .banner {
-        width: 100%;
-        height: 300px; /* 增加高度 */
-        background-image: url("699a325077bf307ed54df5053ac3820.jpg");
-        background-size: cover;
-        background-position: center;
-        border-radius: 8px;
-        margin-bottom: 30px; /* 增加下方间距 */
-        position: relative;
-        overflow: hidden;
-        box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* 添加阴影效果 */
-      }
-      .banner-text {
-        position: absolute;
-        bottom: 20px;
-        left: 20px;
-        color: white;
-        text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
-      }
-      
-      /* 内容区域样式 */
-      .content {
-        background-color: rgba(255, 255, 255, 0.9);
-        padding: 20px;
-        border-radius: 8px;
-        box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      }
-      
-      h1 {
-        color: #f06292;
-        text-align: center;
-      }
-      
-      img {
-        margin: 10px;
-        border-radius: 5px;
-      }
-      
-      .member-photos {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin: 20px 0;
-      }
-      
-      .member-photos img {
-        margin: 10px;
-        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-        transition: transform 0.3s ease;
-      }
-      
-      .member-photos img:hover {
-        transform: scale(1.05);
-      }
-      
-      table {
-        width: 100%;
-        border-collapse: collapse;
-        margin: 20px 0;
-      }
-      
-      td, th {
-        border: 1px solid #ddd;
-        padding: 8px;
-        text-align: center;
-      }
-      
-      th {
-        background-color: #f8bbd0;
-      }
-      
-      .member-info {
-        margin-bottom: 30px;
-      }
-    </style>
-  </head>
-  <body>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>王嘉尔 Jackson Wang 个人网页</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
     <!-- 导航栏 -->
-    <div class="navbar">
-      <a href="#home">首页</a>
-      <a href="#members">成员介绍</a>
-      <a href="#teams">小分队</a>
-      <a href="#music">音乐作品</a>
-      <a href="#gallery">照片墙</a>
-    </div>
-    
-    <!-- Banner图 -->
-    <div class="banner" id="home">
-      <div class="banner-text">
-        <h2>SEVENTEEN</h2>
-        <p>自制自产的K-POP偶像组合</p>
-      </div>
-    </div>
-    
-    <!-- 内容区域 -->
-    <div class="content">
-      <h1>韩国男团SEVENTEEN</h1>
-      <div>
-        <p>
-          SEVENTEEN（세븐틴）是韩国PLEDIS娱乐于2015年推出的13人男子组合，由S.COUPS、JEONGHAN、JOSHUA、JUN、HOSHI、WONWOO、WOOZI、THE8、MINGYU、DK、SEUNGKWAN、VERNON、DINO共13名成员组成。
-          <a href="https://www.seventeen-17.com">官方网站链接</a>
-        </p>
-        
-        <h2 id="members">成员介绍</h2>
-        <ol>
-          <li>S.COUPS - 队长，Hip-Hop队</li>
-          <li>JEONGHAN - Vocal队</li>
-          <li>JOSHUA - Vocal队</li>
-          <li>JUN - Performance队</li>
-        </ol>
-        
-        <p>
-          <img src="微信图片_20250317180236.jpg" alt="SEVENTEEN团体照" width="400" />
-        </p>
-        
-        <h2 id="teams">小分队</h2>
-        <table>
-          <tr>
-            <th>分队名称</th>
-            <th>成员</th>
-            <th>负责</th>
-          </tr>
-          <tr>
-            <td>Hip-Hop队</td>
-            <td>S.COUPS, WONWOO, MINGYU, VERNON</td>
-            <td>说唱、制作</td>
-          </tr>
-          <tr>
-            <td>Vocal队</td>
-            <td>JEONGHAN, JOSHUA, WOOZI, DK, SEUNGKWAN</td>
-            <td>主唱、和声</td>
-          </tr>
-          <tr>
-            <td>Performance队</td>
-            <td>JUN, HOSHI, THE8, DINO</td>
-            <td>舞蹈、表演</td>
-          </tr>
-        </table>
-        
-        <h2 id="music">音乐作品</h2>
-        <p>SEVENTEEN以自制自产的音乐风格著称，成员WOOZI是团队主要的音乐制作人。</p>
-        <ul>
-          <li>代表作品：《Don't Wanna Cry》、《VERY NICE》、《HOME》等</li>
-          <li>最新专辑：《FML》</li>
+    <nav>
+        <div class="logo">Jackson Wang</div>
+        <ul class="nav-links">
+            <li><a href="#home">首页</a></li>
+            <li><a href="#about">关于</a></li>
+            <li><a href="#music">音乐</a></li>
+            <li><a href="#gallery">照片</a></li>
+            <li><a href="#contact">联系</a></li>
         </ul>
-        
-        <h2 id="gallery">照片墙</h2>
-        <div class="member-photos">
-          <!-- 成员照片 -->
-          <img src="微信图片_20250317180236.jpg" alt="SEVENTEEN成员照片1" width="200" />
-          <img src="微信图片_20250317181835.jpg" alt="SEVENTEEN成员照片2" width="200" />
-          <img src="699a325077bf307ed54df5053ac3820.jpg" alt="SEVENTEEN成员照片3" width="200" />
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
         </div>
-        
-        <h2>搜索更多SEVENTEEN信息</h2>
-        <form action="https://music.apple.com/artist/seventeen/1011309775">
-          <input type="text" name="search_text" placeholder="输入SEVENTEEN相关关键词" />
-          <input type="submit" value="搜索" />
-        </form>
-      </div>
-    </div>
-  </body>
+    </nav>
+
+    <!-- 首页部分 -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>王嘉尔 <span>Jackson Wang</span></h1>
+            <p>歌手 | 制作人 | 舞者 | 企业家</p>
+            <a href="#about" class="btn">了解更多</a>
+        </div>
+    </section>
+
+    <!-- 关于部分 -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">关于王嘉尔</h2>
+            <div class="about-content">
+                <div class="about-img">
+                  <img src="c:\Users\29690\Desktop\Web前端技术\Web-develop\王宇航第二周作业\微信图片_20250331221048.jpg" alt="王嘉尔照片">
+                </div>
+                <div class="about-text">
+                    <h3>个人简介</h3>
+                    <p>王嘉尔（Jackson Wang），1994年3月28日出生于香港，华语流行乐男歌手、说唱歌手、音乐制作人、舞者、主持人、企业家。</p>
+                    <p>2014年1月，以GOT7组合成员identity正式出道。2017年8月，发行首支个人单曲《Papillon》。2019年3月，发行首张个人专辑《MIRRORS》。2022年9月，发行第二张个人专辑《MAGIC MAN》。</p>
+                    <p>王嘉尔还创立了个人品牌TEAM WANG，并担任创意总监和设计师。他曾获得多项音乐奖项，并在全球范围内拥有广泛的粉丝群体。</p>
+                    <div class="social-links">
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-weibo"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 音乐部分 -->
+    <section id="music" class="music">
+        <div class="container">
+            <h2 class="section-title">音乐作品</h2>
+            <div class="music-container">
+                <div class="album">
+                    <img src="https://i.imgur.com/example2.jpg" alt="MAGIC MAN专辑">
+                    <h3>MAGIC MAN</h3>
+                    <p>发行日期: 2022年9月</p>
+                    <a href="#" class="btn-small">试听</a>
+                </div>
+                <div class="album">
+                    <img src="https://i.imgur.com/example3.jpg" alt="MIRRORS专辑">
+                    <h3>MIRRORS</h3>
+                    <p>发行日期: 2019年3月</p>
+                    <a href="#" class="btn-small">试听</a>
+                </div>
+                <div class="album">
+                    <img src="https://i.imgur.com/example4.jpg" alt="单曲合集">
+                    <h3>热门单曲</h3>
+                    <p>包含: Blow, 100 Ways, Cruel等</p>
+                    <a href="#" class="btn-small">试听</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系部分 -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">粉丝留言</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>关注王嘉尔</h3>
+                    <p>在社交媒体上关注王嘉尔的最新动态</p>
+                    <div class="social-links">
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+                        <a href="#" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+                        <a href="#" target="_blank"><i class="fab fa-youtube"></i> YouTube</a>
+                        <a href="#" target="_blank"><i class="fab fa-weibo"></i> 微博</a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>给王嘉尔留言</h3>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="您的名字" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="您的邮箱" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="您的留言" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">发送留言</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 王嘉尔粉丝网站 | 本网站仅供学习使用</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
